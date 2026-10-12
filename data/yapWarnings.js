@@ -1,0 +1,117 @@
+// {user} is replaced with the user's name in titles and their mention in descriptions.
+module.exports = [
+    {
+        title: 'Yapping Detected',
+        description: '{user}, that\'s strike 3. The Yap Police have been notified.\nPlease touch grass before continuing this TED Talk.',
+        color: '#e74c3c',
+        footer: 'Counter reset to 0 — you\'ve earned a clean slate.',
+    },
+    {
+        title: 'Verbosity Violation — Case #3',
+        description: 'Subject: {user}\nCharge: Excessive yapping (3/3 strikes)\nVerdict: Guilty. Sentence: 1x deep breath, then silence.',
+        color: '#d35400',
+        footer: 'This record has been cleared. Try to behave, champ.',
+    },
+    {
+        title: '{user}\'s Yap Bar Has Maxed Out',
+        description: '▰▰▰▰▰▰▰▰▰▰ 100%\nAchievement unlocked: "Can\'t Stop Talking"\nMeter has been reset. Use your words wisely, champion.',
+        color: '#f1c40f',
+        footer: null,
+    },
+    {
+        title: 'Okay that\'s enough',
+        description: '{user}, you\'ve hit 3 yaps. Please. We beg you.\n(counter: 0/3 again, go easy this time)',
+        color: '#95a5a6',
+        footer: null,
+    },
+    {
+        title: 'Excessive Talking Detected (3/3)',
+        description: '{user} has been flagged for chronic yapping.\nNext offense may result in: nothing, actually. We just judge you silently.',
+        color: '#5865F2',
+        footer: 'Yap counter reset — clean slate, don\'t waste it.',
+    },
+    {
+        title: 'The Court Finds You Guilty of Yapping',
+        description: '{user}, all rise. Exhibit A through Z: your last 3 messages.\nThe jury (me) has reached a verdict: certified motormouth.',
+        color: '#8e44ad',
+        footer: 'Sentence served. Counter reset to 0.',
+    },
+    {
+        title: 'Yap.exe Has Stopped Working',
+        description: '{user} triggered a critical overflow in the talking buffer.\nRestarting silence module...',
+        color: '#2c3e50',
+        footer: 'System recovered. Counter reset to 0.',
+    },
+    {
+        title: 'A Gentle Reminder From HR',
+        description: 'Hi {user}, per our conversation (which was 100% you talking),\nwe\'re noticing a pattern of excessive yapping. Let\'s circle back after you\'ve said less.',
+        color: '#16a085',
+        footer: 'This has been noted in your file. Counter reset.',
+    },
+    {
+        title: 'AND THAT\'S STRIKE THREE',
+        description: '{user} swings big with another wall of text — the crowd groans.\nSomeone get this yapper a water break.',
+        color: '#c0392b',
+        footer: 'Inning over. Counter reset to 0.',
+    },
+    {
+        title: 'Severe Yap Warning In Effect',
+        description: 'Meteorologists have detected a 100% chance of {user} talking without pause.\nResidents advised to seek shelter in another channel.',
+        color: '#3498db',
+        footer: 'Warning lifted. Counter reset to 0.',
+    },
+    {
+        title: 'Order Declined: Too Much Yap',
+        description: '{user}, the kitchen cannot process this much talking in one order.\nPlease simplify your order and try again.',
+        color: '#e67e22',
+        footer: 'Ticket voided. Counter reset to 0.',
+    },
+    {
+        title: 'Yap Muscle Strain Detected',
+        description: '{user} has overtrained their typing fingers for the 3rd set today.\nRecommended recovery: silence, hydration, and touching grass.',
+        color: '#27ae60',
+        footer: 'Rest day granted. Counter reset to 0.',
+    },
+    {
+        title: 'Patch Notes v1.0.3 — Yap Nerf',
+        description: '{user}\'s message output has been flagged as overpowered.\nBalance changes incoming: reduced talking speed, increased cooldown.',
+        color: '#34495e',
+        footer: 'Patch applied. Counter reset to 0.',
+    },
+    {
+        title: 'WANTED: For Excessive Yapping',
+        description: '{user}, last seen talking non-stop across 3 messages.\nReward for capture: a moment of peace and quiet.',
+        color: '#a0522d',
+        footer: 'Bounty cleared. Counter reset to 0.',
+    },
+    {
+        title: 'Noise Complaint Filed Against You',
+        description: 'The neighbors ({user}, still just you) have filed a formal complaint\nabout excessive yapping at unreasonable volumes.',
+        color: '#7f8c8d',
+        footer: 'Complaint dismissed. Counter reset to 0.',
+    },
+    {
+        title: 'Final Boarding Call For Silence',
+        description: 'Paging {user}: your talking privileges have reached final boarding.\nPlease proceed to the nearest quiet gate immediately.',
+        color: '#2980b9',
+        footer: 'Flight departed. Counter reset to 0.',
+    },
+    {
+        title: 'Diagnosis: Chronic Yapping (Stage 3)',
+        description: 'Patient {user} presents with an acute case of talking too much.\nPrescribed treatment: two messages of silence, taken immediately.',
+        color: '#c0392b',
+        footer: 'Patient discharged. Counter reset to 0.',
+    },
+    {
+        title: 'Loading Tip: Don\'t Be Like {user}',
+        description: 'Pro tip: sending 3 messages in a row does not increase your damage output.\nIt just makes everyone mute the channel.',
+        color: '#9b59b6',
+        footer: 'Tip dismissed. Counter reset to 0.',
+    },
+    {
+        title: 'Yap Alarm Triggered — Evacuate',
+        description: '{user} has set off the yap detector for the 3rd time.\nPlease exit the conversation calmly and in an orderly fashion.',
+        color: '#e74c3c',
+        footer: 'Alarm reset. Counter reset to 0.',
+    },
+];
