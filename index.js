@@ -10,6 +10,10 @@ if (config.features.hyReply) {
     // Privileged intent: only needed to read message text.
     intents.push(GatewayIntentBits.MessageContent);
 }
+if (config.features.mabar) {
+    // Lets the bot see which voice channel a member is in.
+    intents.push(GatewayIntentBits.GuildVoiceStates);
+}
 
 const client = new Client({ intents });
 client.commands = loadCommands();
