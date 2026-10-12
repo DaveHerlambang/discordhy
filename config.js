@@ -25,6 +25,7 @@ module.exports = {
         yapCounter: true,
         hyReply: false,
         birthday: false,
+        mabar: true,
     },
 
     yapCounter: {
@@ -42,11 +43,22 @@ module.exports = {
         channelId: '1303746779031797882',
     },
 
+    mabar: {
+        sessionMinutes: 120,
+        maxSlot: 25,
+    },
+
     colors: {
         animal: '#ff9900',
         movieRecommendation: '#e67e22',
         moviePopular: '#3498db',
         movieTopRated: '#9b59b6',
         birthday: '#ff69b4',
+        mabar: '#2ecc71',
+        mabarClosed: '#95a5a6',
+        shipCold: '#a4b0be',
+        shipWarm: '#f8a5c2',
+        shipHot: '#ff6fae',
+        shipSoulmate: '#e84393',
     },
 };
